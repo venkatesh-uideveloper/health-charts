@@ -1,0 +1,418 @@
+[{
+    "APPLICATION TICKET COUNT BY SEV": {
+        "Type": "APPLICATION TICKET COUNT BY SEV",
+        "InternalChartData": [{
+            "graphView": {
+                "LNCC": [
+                    ["Color Code : Amber", "Important : 1"],
+                    ["Color Code : Green", "Non-critical Production : 1"]
+                ],
+                "POWER_BILLING": [
+                    ["Color Code : Amber", "Important : 5"],
+                    ["Color Code : Green", "Non-critical Production : 9"],
+                    ["Color Code : RED", "Urgent : 3"]
+                ],
+                "PPC": [
+                    ["Color Code : #FF9933", "Critical : 1"],
+                    ["Color Code : Green", "Non-critical Production : 1"]
+                ],
+                "CIS-Batch Job Failure": [
+                    ["Color Code : Amber", "Important : 14"],
+                    ["Color Code : Green", "Non-critical Production : 4"],
+                    ["Color Code : RED", "Urgent : 37"]
+                ],
+                "SAS": [
+                    ["Color Code : Green", "Non-critical Production : 2"]
+                ],
+                "CBC": [
+                    ["Color Code : Amber", "Important : 23"],
+                    ["Color Code : Green", "Non-critical Production : 3"]
+                ],
+                "AVAYA": [
+                    ["Color Code : #FF9933", "Critical : 1"],
+                    ["Color Code : Amber", "Important : 8"],
+                    ["Color Code : Green", "Non-critical Production : 7"],
+                    ["Color Code : RED", "Urgent : 1"]
+                ],
+                "LMIS": [
+                    ["Color Code : Amber", "Important : 6"],
+                    ["Color Code : Green", "Non-critical Production : 1"]
+                ],
+                "IRESOLVE": [
+                    ["Color Code : Green", "Non-critical Production : 2"]
+                ],
+                "EDI": [
+                    ["Color Code : Green", "Non-critical Production : 3"]
+                ],
+                "FMOS": [
+                    ["Color Code : Amber", "Important : 17"],
+                    ["Color Code : Green", "Non-critical Production : 20"],
+                    ["Color Code : RED", "Urgent : 25"]
+                ],
+                "MAUI": [
+                    ["Color Code : Amber", "Important : 1"],
+                    ["Color Code : Green", "Non-critical Production : 2"]
+                ],
+                "MVS": [
+                    ["Color Code : Green", "Non-critical Production : 1"]
+                ],
+                "IMPACT_360": [
+                    ["Color Code : Green", "Non-critical Production : 1"]
+                ],
+                "CIS-Online": [
+                    ["Color Code : Green", "Non-critical Production : 3"],
+                    ["Color Code : RED", "Urgent : 2"]
+                ],
+                "VRU": [
+                    ["Color Code : RED", "Urgent : 1"]
+                ],
+                "Q360": [
+                    ["Color Code : Amber", "Important : 9"],
+                    ["Color Code : Green", "Non-critical Production : 3"]
+                ],
+                "VDI": [
+                    ["Color Code : Green", "Non-critical Production : 1"]
+                ],
+                "CAMP": [
+                    ["Color Code : Green", "Non-critical Production : 2"]
+                ],
+                "PDS": [
+                    ["Color Code : Green", "Non-critical Production : 1"]
+                ],
+                "DSM": [
+                    ["Color Code : Green", "Non-critical Production : 6"]
+                ],
+                "PEARL": [
+                    ["Color Code : Amber", "Important : 1"],
+                    ["Color Code : Green", "Non-critical Production : 9"],
+                    ["Color Code : RED", "Urgent : 1"]
+                ],
+                "WRAP": [
+                    ["Color Code : Green", "Non-critical Production : 1"]
+                ],
+                "BATR": [
+                    ["Color Code : Green", "Non-critical Production : 2"]
+                ],
+                "CIS-Batch": [
+                    ["Color Code : Amber", "Important : 30"],
+                    ["Color Code : Green", "Non-critical Production : 70"],
+                    ["Color Code : RED", "Urgent : 1"]
+                ],
+                "ECC": [
+                    ["Color Code : Amber", "Important : 7"],
+                    ["Color Code : RED", "Urgent : 67"]
+                ],
+                "EMM": [
+                    ["Color Code : Amber", "Important : 4"],
+                    ["Color Code : Green", "Non-critical Production : 18"],
+                    ["Color Code : RED", "Urgent : 6"]
+                ],
+                "BMAP": [
+                    ["Color Code : Green", "Non-critical Production : 1"]
+                ],
+                "IEE": [
+                    ["Color Code : Green", "Non-critical Production : 23"]
+                ],
+                "OPAL": [
+                    ["Color Code : Amber", "Important : 2"]
+                ],
+                "CIS-Maintenance": [
+                    ["Color Code : #FF9933", "Critical : 1"],
+                    ["Color Code : Green", "Non-critical Production : 64"]
+                ],
+                "POL": [
+                    ["Color Code : Amber", "Important : 1"]
+                ],
+                "OTHER": [
+                    ["Color Code : Amber", "Important : 2"],
+                    ["Color Code : Green", "Non-critical Production : 14"]
+                ],
+                "TWS": [
+                    ["Color Code : Green", "Non-critical Production : 2"]
+                ],
+                "Project Train": [
+                    ["Color Code : RED", "Urgent : 22"]
+                ],
+                "RATIONAL": [
+                    ["Color Code : Green", "Non-critical Production : 1"]
+                ],
+                "CIS-Bill Print": [
+                    ["Color Code : Green", "Non-critical Production : 2"]
+                ],
+                "CALLS": [
+                    ["Color Code : #FF9933", "Critical : 2"],
+                    ["Color Code : Amber", "Important : 17"],
+                    ["Color Code : Green", "Non-critical Production : 23"],
+                    ["Color Code : RED", "Urgent : 1"]
+                ],
+                "TMS": [
+                    ["Color Code : Green", "Non-critical Production : 2"]
+                ],
+                "CTM": [
+                    ["Color Code : Green", "Non-critical Production : 1"]
+                ],
+                "APN": [
+                    ["Color Code : Green", "Non-critical Production : 1"],
+                    ["Color Code : RED", "Urgent : 3"]
+                ]
+            },
+            "totalCount": null
+        }, {
+            "graphView": {
+                "IMO - DBA - ORACLE ON CALL SUPPORT": [
+                    ["ORACLE DATABASE SUPPORT : 1"]
+                ],
+                "AS - CORP APP - VRU PAYMENT FAILURE": [
+                    ["VRU_PYMT_FAILURE : 1"]
+                ],
+                "AS - CORP APP - AMI SUPPORT": [
+                    ["AMI - IEE ISSUES : 23"]
+                ],
+                "AS - CUST SRV APP -  CIS CONTROLS": [
+                    ["CIS - CONTROLS OUT OF BALANCE : 31"]
+                ],
+                "AS - CUST SRV APP -  SOSW": [
+                    ["CALLS - SOSW (SERVICE ORDERS) : 7"]
+                ],
+                "AS - CUST SRV APP - CASH": [
+                    ["CRITICAL QUERY REQUEST : 1"]
+                ],
+                "AS - CUST SRV SYS - CCIN": [
+                    ["POST CCIN'S : 21"]
+                ],
+                "SMART GRID SUPPORT": [
+                    ["MAUI - ISSUES : 1"]
+                ],
+                "SAS SUPPORT": [
+                    ["SAS - INSTALL : 2"]
+                ],
+                "SMART GRID SUPPORT 2": [
+                    ["MAUI - ACCESS REQUEST : 2"]
+                ],
+                "AS - CUST SRV APP -  DSMS PROD 4": [
+                    ["DSMS - HOW TO : 1"]
+                ],
+                "IMO - IM - IMSC PUSH ADMIN": [
+                    ["TRR OUTPOST PUSH : 1"]
+                ],
+                "AS - CUST SRV APP -  DSMS PROD 6": [
+                    ["DSMS - INCENTIVE PROCESSING : 1"]
+                ],
+                "AS - CUST SRV APP -  QAMS": [
+                    ["ULTRA - Q360 : 12"]
+                ],
+                "AS - CUST SRV APP -  DSMS PROD 1": [
+                    ["DSMS - FIELD OPERATIONS : 3"]
+                ],
+                "AS - CORP APP - FMOS MVS - MONITORED EVENT APP": [
+                    ["FMOS_MF_MVS : 44"]
+                ],
+                "NONE": [
+                    ["DATA REPAIRS : 3"]
+                ],
+                "AS - CUST SRV APP -  METER READING": [
+                    ["BATR REQUEST : 2"]
+                ],
+                "IM - TWS BATCH - CIS2 - SOGRP1": [
+                    ["TWS_CIS2_SOGRP1 : 5"]
+                ],
+                "IM - TWS BATCH - KITRAIN": [
+                    ["CIS JOB FAILED - KITRAIN : 22"]
+                ],
+                "ECC - ETL - SCHEDULED_JOBS - SUPPORT": [
+                    ["ECC_MF : 4"]
+                ],
+                "AS - CUST SRV APP - PEARL": [
+                    ["PEARL : 11"]
+                ],
+                "IRESOLVE SUPPORT": [
+                    ["IRESOLVE - ISSUES : 2"]
+                ],
+                "AS - CUST SRV APP -  OPAL APP": [
+                    ["WORKSTATION : 2"]
+                ],
+                "AS - CUST SRV APP -  SEAGATE": [
+                    ["SEAGATE REPORTS : 1"]
+                ],
+                "AS - CUST SRV APP - POWER BILLING MAINFRAME": [
+                    ["PB - POWER BILLING ACCOUNT : 11"]
+                ],
+                "AS - CUST SRV SYS - PDS": [
+                    ["PDS - OUTBOUND DIALER - ASPECT : 1"]
+                ],
+                "IMO - TS - MVS - ONLINES CISII PERFORM": [
+                    ["CISII-PERFORMANCE : 1"]
+                ],
+                "IM - TWS BATCH - CIS2 - CIS2CASH": [
+                    ["TWS_CIS2_CASH : 13"]
+                ],
+                "AS - CUST SRV APP -  NETSEARCH": [
+                    ["NETSEARCH : 1"]
+                ],
+                "IMO - SA - SECURITY PCICS": [
+                    ["MVS-PCICS ID : 1"]
+                ],
+                "IM - TWS BATCH - CIS2 - CIS2CONTROL": [
+                    ["TWS_CIS2_CONTROL : 2"]
+                ],
+                "AS - CUST SRV APP -  CALLS": [
+                    ["CALLS - GENERAL (PERFORMANCE/LOGIN) : 25"]
+                ],
+                "AS - CUST SRV APP -  PPC RPS": [
+                    ["PPC RPS : 2"]
+                ],
+                "AS - CUST SRV APP -  BILL RPTS": [
+                    ["CIS - ACCOUNT MAINTENANCE : 3"]
+                ],
+                "IM - TWS BATCH - CIS2 - BILLING": [
+                    ["TWS_CIS2_BILLING : 8"]
+                ],
+                "AS - CUST SRV APP -  CIS II": [
+                    ["CIS II : 2"]
+                ],
+                "SW - 4D JOB NOTIFICATION": [
+                    ["CTM JOB REQUEST - ADD/CHG/MODIFY : 1"]
+                ],
+                "CUSTOMER SERVICE STREAMSERVE": [
+                    ["ECC_STREAMSERVE : 63"]
+                ],
+                "AS - CUST SRV SYS - LN:CC": [
+                    ["LNCC - CUST CORRESPONDENCE/REPORTS : 1"]
+                ],
+                "ECC OFF CYCLE - SUPPORT": [
+                    ["ECC SUPPORT - OFF CYCLE : 2"]
+                ],
+                "IM - TWS BATCH - APP - LMIS": [
+                    ["TWS_LMIS : 1"]
+                ],
+                "IM - TWS BATCH - CIS2 - PBILLNC": [
+                    ["TWS_CIS2_PBILLNC : 1"]
+                ],
+                "AS - CORP APP - APN APP": [
+                    ["APN- PAYMENT POSTING ERROR : 1"]
+                ],
+                "AS - CUST SRV APP -  CICS TEST": [
+                    ["CIS TEST ENVIRONMENT - ACCESS : 6"]
+                ],
+                "TMS APP SUPPORT": [
+                    ["TMS_APP_EVENT : 2"]
+                ],
+                "AS - CUST SRV APP - ABP": [
+                    ["CIS - ACCOUNT PAYMENT : 1"]
+                ],
+                "RATIONAL QUALITY SUPPORT": [
+                    ["RATIONAL QUALITY MANAGEMENT : 1"]
+                ],
+                "AS - CUST SRV APP - UCCE": [
+                    ["AVAYA AGENT/CTI : 1"]
+                ],
+                "AS - CSS - WEB APPS": [
+                    ["POL - PAY ON LINE : 1"]
+                ],
+                "AS - CUST SRV APP -  SAMS": [
+                    ["WRAP (RATE ANALYSIS) - ACCESS : 1"]
+                ],
+                "AS - POWER BILLING - PASSWORD RESET": [
+                    ["POWER BILLING/TTS - ACCESS : 1"]
+                ],
+                "IMB - CSS - SW - HVCA (HIGH VOLUME CALL ANSWERING)": [
+                    ["HVCA (HIGH VOLUME CALL ANSWERING) : 2"]
+                ],
+                "TECHSERVICES-WINDOWS SUPPORT": [
+                    ["UNLISTED : 1"]
+                ],
+                "AS - CUST SRV APP - MESSAGE CASTER": [
+                    ["LFOSC08 : 1"]
+                ],
+                "IM - CSS - EMM - SERVER SUPPORT": [
+                    ["EMM_SUPPORT : 24"]
+                ],
+                "AS - CUST SRV APP -  SO FUNCTIONS": [
+                    ["CIS - METERING FUNCTIONS : 1"]
+                ],
+                "AS - CUST SRV APP -  DSMS": [
+                    ["DSMS PERFORMANCE/CONNECTIVITY ISSUE : 1"]
+                ],
+                "IMO - SW - EDI APPLICATIONS": [
+                    ["EDI - CIS CREDIT CARD : 2"]
+                ],
+                "AS - CUST SRV - ACD": [
+                    ["FORECASTING & SCHEDULING/IMPACT 360 : 1"]
+                ],
+                "IM - TWS BATCH - CIS2 - SOGRP4": [
+                    ["TWS_CIS2_SOGRP4 : 2"]
+                ],
+                "AS - CUST SRV APP -  LMIS - MVS": [
+                    ["4D_LMIS_BATCH JOB FAILED : 5"]
+                ],
+                "IM - TWS BATCH - APP - POWERBILL AMR": [
+                    ["TWS_POWERBILL_AMR : 5"]
+                ],
+                "LAN ADMINISTRATORS": [
+                    ["2FACTOR VPN CONNECTION ISSUE : 1"]
+                ],
+                "AS - CORP - FPLES": [
+                    ["TWS_CIS2_CASH_FPLES : 1"]
+                ],
+                "HOME AGENT VM SUPPORT": [
+                    ["VDI - VIRTUAL COMPUTER CARE CENTER : 1"]
+                ],
+                "IM - TWS BATCH - CIS2 - CIS2OPAL": [
+                    ["TWS_CIS2_OPAL : 2"]
+                ],
+                "IMO - DATA SERVICES - MANAGER APPROVAL - SOUTH": [
+                    ["DBA-GO MANAGER APPROVAL ONLY : 6"]
+                ],
+                "AS - CUST SRV APP -  RPMS": [
+                    ["CSAR SERVER MAINTENANCE HOW TO : 1"]
+                ],
+                "IM - TWS BATCH - CIS2 - KIBI": [
+                    ["TWS_CIS2_KIBI415P : 3"]
+                ],
+                "AS - CORP APP - RWMS": [
+                    ["FMOS - FIELD MANAGMNT OPERATION SYS : 14"]
+                ],
+                "AS - CUST SRV APP -  ASAR": [
+                    ["CIS - COLLECTIONS & DEPOSITS : 10"]
+                ],
+                "IM - TWS BATCH - CIS2 - KISONC": [
+                    ["TWS_CIS2_KISONC : 1"]
+                ],
+                "AS - CUST SRV APP -  CALLS CTI": [
+                    ["AVAYA AGENT/CTI : 13"]
+                ],
+                "IM - TWS BATCH - CIS2 - DPROCESSING": [
+                    ["TWS_CIS2_DPROCESSING : 1"]
+                ],
+                "IMO - CC - OPERATIONS - TWS - APP - BILLING": [
+                    ["TWS-UPDATE-CUSTSVC-BILLING : 1"]
+                ],
+                "IM - TWS BATCH - CIS2 - COLLECTIONS": [
+                    ["TWS_CIS2_COLLECTIONS : 6"]
+                ],
+                "ECC_JAVA_SCHEDULEDJOBS_SUPPORT": [
+                    ["ECC_SSO_URL : 3"]
+                ],
+                "AS - CORP APP - FMOS MVS SUPPORT": [
+                    ["FMOS_APP : 2"]
+                ],
+                "SW - TWS SUPPORT": [
+                    ["TWS-ADMINISTRATOR : 2"]
+                ],
+                "AS - CUST SRV APP -  LMIS - WIN": [
+                    ["LMIS - LOAD MANAGEMENT SYS : 1"]
+                ],
+                "AS - CUST SRV APP - BILLING": [
+                    ["CIS - MAILING/CSF UPDATES : 2"]
+                ],
+                "IM_CAMP_DATA SUPPORT 2": [
+                    ["CAMP - OUTLOOK PLUGIN ISSUES : 1"]
+                ],
+                "AS - CUST SRV APP - CBC": [
+                    ["CBC_-_CUSTOMER_BILLING_CONTROLS : 8"]
+                ]
+            },
+            "totalCount": 628
+        }]
+    }
+}]

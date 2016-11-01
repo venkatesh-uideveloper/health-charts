@@ -1,0 +1,219 @@
+<!-- <div class="row remedy-tickets visible-xs visible-sm">
+    <div id="remedy-carousel-1" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators grey">
+            <li data-target="#remedy-carousel-1" data-slide-to="0" class="carousal-dots" id="carousel-dot"></li>
+            <li data-target="#remedy-carousel-1" data-slide-to="1" class="active carousal-dots"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item" id="remedy2">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="panel panel-default first_carousel">
+                        <div class="clearfix">
+                            <p class="title pull-left">REMEDY TICKETS THIS MONTH</p>
+                            <span class="pull-right month-selector">JULY&nbsp;&nbsp;<i class="fa fa-angle-down"></i></span>
+                        </div>
+                        <div class="panel-body row">
+                            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                                <canvas id="pie" class="chart chart-doughnut" chart-data="doughnut.value" chart-labels="doughnut.label" chart-colors="doughnut.color" chart-options="doughnutOptions">
+                                </canvas>
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                                <table>
+                                    <tr ng-repeat="labels in doughnut.label">
+                                        <td class="text-center" ng-style="{'color':doughnut.color[$index]}">{{labels}}</td>
+                                        <td class="value text-center">{{doughnut.value[$index]}}</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item active" id="remedy1">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="panel panel-default">
+                        <remedy-bar-chart></remedy-bar-chart>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row remedy-tickets visible-lg visible-md">
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="panel panel-default">
+            <div class="clearfix">
+                <p class="title pull-left">REMEDY TICKETS THIS MONTH</p>
+                <span class="pull-right month-selector">JULY&nbsp;&nbsp;<i class="fa fa-angle-down"></i></span>
+            </div>
+            <div class="panel-body row">
+                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                    <canvas id="pie" class="chart chart-doughnut" chart-data="doughnut.value" chart-labels="doughnut.label" chart-colors="doughnut.color" chart-options="doughnutOptions">
+                    </canvas>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                    <table>
+                        <tr ng-repeat="labels in doughnut.label">
+                            <td class="text-center" ng-style="{'color':doughnut.color[$index]}">{{labels}}</td>
+                            <td class="value text-center">{{doughnut.value[$index]}}</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="panel panel-default">
+            <remedy-bar-chart></remedy-bar-chart>
+        </div>
+    </div>
+</div>
+ -->
+<div class="row visible-xs visible-sm today-status">
+    <div id="status-carousel-1" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators grey">
+            <li data-target="#status-carousel-1" data-slide-to="0" class="active carousal-dots" id="carousel-dot"></li>
+            <li data-target="#status-carousel-1" data-slide-to="1" class=" carousal-dots"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active" id="status-carousel-0">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="panel panel-default first_carousel">
+                        <div class="clearfix">
+                            <p class="title pull-left">TODAY'S STATUS</p>
+                        </div>
+                        <div class="panel-body row">
+                            <div class="media">
+                                <div class="pull-left alerts-total">
+                                    <div class="progress-wrapper">
+                                        <div class="progress-text progress-text-fmos" ng-style="getStyle() ">
+                                            <span> {{internalChartData.total}}</span>
+                                            <br />
+                                            <span class="progress-text-toal ">{{internalChartData.filesReceived}}</span>
+                                            <!--  <span class="progress-text-recieved ">Recieved</span> -->
+                                        </div>
+                                        <round-progress max="internalChartData.total" current="internalChartData.processed" color="{{ internalChartData.color}}" radius="80" semi="false" rounded="false" stroke="10" clockwise="true" animation="easeOutCubic">
+                                            <svg>
+                                                <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
+                                                    <stop offset="5%" stop-color="green" />
+                                                    <stop offset="95%" stop-color="gold" />
+                                                </linearGradient>
+                                            </svg>
+                                        </round-progress>
+                                    </div>
+                                </div>
+                                <div class="media-body pull-right">
+                                    DATE
+                                    <br> {{currentDate | date : 'MM/dd/yyyy'}}
+                                    <br> TIME
+                                    <br> 6AM - 7AM <i class="fa fa-pencil"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item" id="status-carousel-1">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="panel panel-default">
+                        <div class="clearfix fmos_calendar">
+                            <marquee class="title text-center">67 days without an FMOS&nbsp;<span class="cal-text">RED</span>&nbsp;event</marquee>
+                        </div>
+                        <div class="panel-body">
+                            <hr class="custom-hr">
+                            <div class="text-center month">{{calendarMonthDate | date:'MMM yyyy'}}</div>
+                            <div class="row">
+                                <div class="col-lg-2 col-md-2 col-sm-2 control col-xs-2 text-center arrow-calender">
+                                    <i ng-if="decrementArrow" class="fa fa-angle-left" ng-click="changeCalendar('decrement')"></i>
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 calendar-body calendar">
+                                    <div class="each-date text-center" ng-repeat="days in calendarDates"><span ng-class="{'selected':$index<3,'disabled':$index+1>numberOfDays}">{{days.date}}</span></div>
+                                </div>
+                                <div class="col-lg-2 col-md-2 col-sm-2 control text-center arrow-calender">
+                                    <i ng-if="incrementArrow" class="fa fa-angle-right" ng-click="changeCalendar('increment')"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row today-status visible-lg visible-md">
+    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <div class=" panel panel-default ">
+            <div class="clearfix">
+                <p class="title pull-left">TODAY'S STATUS</p>
+            </div>
+            <div class="panel-body">
+                <div class="media">
+                    <div class="pull-left alerts-total">
+                        <div class="progress-wrapper">
+                            <div class="progress-text progress-text-fmos" ng-style="getStyle() ">
+                                <span> {{internalChartData.total}}</span>
+                                <br />
+                                <span class="progress-text-toal ">{{internalChartData.filesReceived}}</span>
+                                <!--  <span class="progress-text-recieved ">Recieved</span> -->
+                            </div>
+                            <round-progress max="internalChartData.total" current="internalChartData.processed" color="{{ internalChartData.color}}" radius="60" semi="false" rounded="false" stroke="10" clockwise="true" animation="easeOutCubic">
+                                <svg>
+                                    <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
+                                        <stop offset="5%" stop-color="green" />
+                                        <stop offset="95%" stop-color="gold" />
+                                    </linearGradient>
+                                </svg>
+                            </round-progress>
+                        </div>
+                    </div>
+                    <div class="media-body pull-right">
+                        DATE
+                        <br> {{currentDate | date : 'MM/dd/yyyy'}}
+                        <br> TIME
+                        <br> 6AM - 7AM <i class="fa fa-pencil"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+        <div class="panel panel-default">
+            <div class="clearfix fmos_calendar">
+                <marquee class="title text-center">67 days without an FMOS&nbsp;<span class="cal-text">RED</span>&nbsp;event</marquee>
+            </div>
+            <div class="panel-body">
+                <hr class="custom-hr">
+                <div class="text-center month">{{calendarMonthDate | date:'MMM yyyy'}}</div>
+                <div class="row">
+                    <div class="col-lg-2 col-md-2 col-sm-2 control text-center arrow-calender">
+                        <i ng-if="decrementArrow" class="fa fa-angle-left" ng-click="changeCalendar('decrement')"></i>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-8 calendar-body calendar">
+                        <div class="each-date text-center" ng-repeat="days in calendarDates"><span ng-class="{'selected':$index<3,'disabled':$index+1>numberOfDays}">{{days.date}}</span></div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 control text-center arrow-calender">
+                        <i ng-if="incrementArrow" class="fa fa-angle-right" ng-click="changeCalendar('increment')"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="app-container top-0
+">
+    <div class="col-md-4 col-sm-12" ng-show="tabView">
+        <div class="list_row_container">
+            <div class="chart-list" ng-click="showDetails($index);" ng-class="{ 'active':chartFMOS.selected, '':!chartFMOS.selected} " ng-repeat="chartFMOS in dataFMOS[0]">
+                <div class="listHeader "><span class="cat-det heading" href="">{{chartFMOS.Type}} </span></div>
+                <div class="row progressHolder clearfix " ng-repeat="internalChartDataFMOS in chartFMOS.InternalChartData " ng-if="!internalChartDataFMOS.premiseType">
+                    <div class="progressText col-md-4 col-xs-4">{{internalChartDataFMOS.alertType}}</div>
+                    <div class="bs-example col-md-5 col-xs-4">
+                        <div class="fmos-progress" style="background-color: {{internalChartDataFMOS.color}}"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <ui-view ng-show="contentView"></ui-view>
+</div>
+</div>

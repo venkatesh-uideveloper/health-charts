@@ -1,0 +1,24 @@
+{
+    "labels": ["January", "February", "March", "April", "May", "June", "July"],
+    "datasets": [{
+        "label": "Server 1",
+        "backgroundColor": "#FFA500",
+        "borderColor": "#FFA500",
+        "data": [65, 59, 80, 81, 56, 55, 40]
+    }, {
+        "label": "Server 2",
+        "backgroundColor": "#0000CD",
+        "borderColor": "#0000CD",
+        "data": [68, 57, 80, 84, 52, 55, 43]
+    }, {
+        "label": "Server 3",
+        "backgroundColor": "#8B008B",
+        "borderColor": "#8B008B",
+        "data": [68, 57, 80, 84, 52, 55, 40]
+    }, {
+        "label": "Server 4",
+        "backgroundColor": "#FF00FF",
+        "borderColor": "#FF00FF",
+        "data": [68, 57, 80, 84, 52, 55, 98]
+    }]
+}

@@ -1,0 +1,177 @@
+[{
+        "APPLICATION TICKET COUNT BY SEV": {
+                "Type": "WEEKLY APPLICATION TICKET COUNT",
+                "InternalChartData": [{
+                        "graphView": {
+                                "1": [
+                                        ["Color Code : ", "Urgent : 1"]
+                                ],
+                                "2": [
+                                        ["Color Code : ", "Important : 1"],
+                                        ["Color Code : ", "Urgent : 4"]
+                                ],
+                                "4": [
+                                        ["Color Code : ", "Urgent : 1"]
+                                ],
+                                "5": [
+                                        ["Color Code : ", "Important : 1"],
+                                        ["Color Code : ", "Urgent : 12"]
+                                ],
+                                "6": [
+                                        ["Color Code : ", "Non-critical Production : 2"],
+                                        ["Color Code : ", "Urgent : 37"]
+                                ],
+                                "7": [
+                                        ["Color Code : ", "Important : 15"],
+                                        ["Color Code : ", "Urgent : 29"]
+                                ],
+                                "8": [
+                                        ["Color Code : ", "Important : 2"],
+                                        ["Color Code : ", "Non-critical Production : 1"],
+                                        ["Color Code : ", "Urgent : 18"]
+                                ],
+                                "9": [
+                                        ["Color Code : #FF9933", "Critical : 1"],
+                                        ["Color Code : ", "Important : 5"],
+                                        ["Color Code : ", "Urgent : 22"]
+                                ],
+                                "10": [
+                                        ["Color Code : ", "Important : 1"],
+                                        ["Color Code : ", "Urgent : 15"]
+                                ],
+                                "11": [
+                                        ["Color Code : ", "Important : 1"],
+                                        ["Color Code : ", "Non-critical Production : 1"],
+                                        ["Color Code : ", "Urgent : 23"]
+                                ],
+                                "12": [
+                                        ["Color Code : ", "Important : 3"],
+                                        ["Color Code : ", "Non-critical Production : 1"],
+                                        ["Color Code : ", "Urgent : 12"]
+                                ],
+                                "13": [
+                                        ["Color Code : ", "Important : 1"],
+                                        ["Color Code : ", "Urgent : 8"]
+                                ],
+                                "14": [
+                                        ["Color Code : ", "Important : 6"],
+                                        ["Color Code : ", "Non-critical Production : 12"],
+                                        ["Color Code : ", "Urgent : 47"]
+                                ],
+                                "15": [
+                                        ["Color Code : ", "Important : 7"],
+                                        ["Color Code : ", "Urgent : 34"]
+                                ],
+                                "16": [
+                                        ["Color Code : ", "Important : 5"],
+                                        ["Color Code : ", "Urgent : 39"]
+                                ],
+                                "17": [
+                                        ["Color Code : ", "Important : 13"],
+                                        ["Color Code : ", "Urgent : 49"]
+                                ],
+                                "18": [
+                                        ["Color Code : ", "Important : 4"],
+                                        ["Color Code : ", "Urgent : 28"]
+                                ],
+                                "19": [
+                                        ["Color Code : ", "Important : 1"],
+                                        ["Color Code : ", "Non-critical Production : 1"],
+                                        ["Color Code : ", "Urgent : 31"]
+                                ],
+                                "20": [
+                                        ["Color Code : ", "Urgent : 36"]
+                                ],
+                                "21": [
+                                        ["Color Code : ", "Urgent : 27"]
+                                ],
+                                "22": [
+                                        ["Color Code : ", "Non-critical Production : 5"],
+                                        ["Color Code : ", "Urgent : 22"]
+                                ],
+                                "23": [
+                                        ["Color Code : ", "Non-critical Production : 4"],
+                                        ["Color Code : ", "Urgent : 42"]
+                                ],
+                                "24": [
+                                        ["Color Code : ", "Important : 1"],
+                                        ["Color Code : ", "Non-critical Production : 2"],
+                                        ["Color Code : ", "Urgent : 27"]
+                                ],
+                                "25": [
+                                        ["Color Code : ", "Non-critical Production : 1"],
+                                        ["Color Code : ", "Urgent : 30"]
+                                ],
+                                "26": [
+                                        ["Color Code : ", "Urgent : 44"]
+                                ],
+                                "27": [
+                                        ["Color Code : ", "Urgent : 24"]
+                                ],
+                                "28": [
+                                        ["Color Code : ", "Important : 2"],
+                                        ["Color Code : ", "Non-critical Production : 1"],
+                                        ["Color Code : ", "Urgent : 33"]
+                                ],
+                                "29": [
+                                        ["Color Code : ", "Urgent : 56"]
+                                ],
+                                "30": [
+                                        ["Color Code : ", "Urgent : 42"]
+                                ],
+                                "31": [
+                                        ["Color Code : ", "Urgent : 42"]
+                                ],
+                                "32": [
+                                        ["Color Code : ", "Urgent : 9"]
+                                ],
+                                "33": [
+                                        ["Color Code : ", "Urgent : 10"]
+                                ],
+                                "34": [
+                                        ["Color Code : ", "Urgent : 33"]
+                                ],
+                                "35": [
+                                        ["Color Code : ", "Urgent : 38"]
+                                ],
+                                "36": [
+                                        ["Color Code : ", "Important : 1"],
+                                        ["Color Code : ", "Urgent : 16"]
+                                ],
+                                "37": [
+                                        ["Color Code : ", "Important : 2"],
+                                        ["Color Code : ", "Urgent : 6"]
+                                ],
+                                "38": [
+                                        ["Color Code : ", "Important : 1"],
+                                        ["Color Code : ", "Urgent : 15"]
+                                ],
+                                "39": [
+                                        ["Color Code : ", "Important : 2"],
+                                        ["Color Code : ", "Urgent : 13"]
+                                ],
+                                "40": [
+                                        ["Color Code : ", "Important : 2"],
+                                        ["Color Code : ", "Urgent : 21"]
+                                ],
+                                "41": [
+                                        ["Color Code : ", "Important : 1"],
+                                        ["Color Code : ", "Urgent : 26"]
+                                ],
+                                "42": [
+                                        ["Color Code : ", "Important : 4"],
+                                        ["Color Code : ", "Urgent : 10"]
+                                ],
+                                "43": [
+                                        ["Color Code : ", "Important : 1"],
+                                        ["Color Code : ", "Urgent : 19"]
+                                ],
+                                "44": [
+                                        ["Color Code : ", "Important : 1"],
+                                        ["Color Code : ", "Urgent : 11"]
+                                ]
+                        },
+                        "totalCount": null
+                }]
+        }
+}]

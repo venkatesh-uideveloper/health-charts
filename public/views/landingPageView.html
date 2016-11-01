@@ -1,0 +1,51 @@
+<div class="col-lg-12 col-md-12 col-sm-12 applicationHeader">
+    <ul class="nav navbar-nav">
+        <li class="dropdown app-heading">
+            <span class="hidden-xs hidden-sm"><span class="app-heading-light">You are here:&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <span ng-class="{'link':selectedApp.title}" ui-sref="landing">DASHBOARD</span>
+            <span class="dropdown-toggle" data-toggle="dropdown" id=" header-text" href="#">&nbsp;&gt;&gt;&nbsp;{{selectedApp.title}}</span></span>
+            <span class="visible-xs visible-sm"><span>{{selectedApp.title || 'Application Health Summary'}}</span>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li ng-repeat="data in appData" ng-click="showDetails($index);"><a>{{data.title}}</a></li>
+            </ul>
+            <span class="pull-right hide"><i class="fa fa-bars" aria-hidden="true"></i></span></span>
+        </li>
+    </ul>
+</div>
+<div class="row each-app">
+    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 " ui-sref="details({ id : $index})" ng-repeat="data in appData" ng-click="moveToDetails(data, $index)">
+        <div class="panel panel-default">
+            <div class="panel-heading media">
+                <div class="pull-left flag" ng-style="{'background-color':data.color}"><i class="fa fa-flag-o" aria-hidden="true"></i></div>
+                <div class="media-body">
+                    <div class="clearfix">
+                        <span class="pull-left title">{{data.title}}</span>
+                        <span class="pull-right circle-ellipsis visible-lg visible-md"><i class="fa fa-circle" aria-hidden="true" ng-repeat="i in [1,2,3]"></i></span>
+                    </div>
+                    <div class="row stats" ng-style="{'color':data.color}">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><span class="number">{{data.tickets}}&nbsp;</span><span class="text">Open tickets</span></div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><span class="number">{{data.processes}}&nbsp;</span><span class="text">Weak Process</span></div>
+                    </div>
+                </div>
+                <div class="app-indicator hidden-lg hidden-md" ng-style="{'background-color':data.color}">
+                </div>
+            </div>
+            <div class="panel-body visible-lg visible-md">
+                <p>Health Trend</p>
+                <div class="body-content">
+                    <ul class="days-split nav nav-tabs">
+                        <li role="presentation" class="each-day" ng-class="{'active':days==selectedDay}" ng-click="$event.stopPropagation();selectDay(days)">
+                            <a class="text-center" ng-repeat="(key,data) in data.healthTrend">{{key}}</a>
+                        </li>
+                    </ul>
+                    <ul id="circles" class="nav nav-tabs time-split">
+                        <li class="each-time text-center">
+                            <i class="fa fa-circle" aria-hidden="true" ng-repeat="(key,data) in data.healthTrend" ng-style="{'color':data}"></i>
+                            <br>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

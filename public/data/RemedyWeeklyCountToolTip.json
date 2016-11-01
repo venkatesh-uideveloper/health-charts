@@ -1,0 +1,14 @@
+[{
+    "APPLICATION TICKET COUNT FOR POP UP": {
+        "Type": "APPLICATION TICKET COUNT FOR POP UP",
+        "InternalChartData": [{
+            "ticketCountForApp": {
+                "ECC SUPPORT - OFF CYCLE": 1,
+                "ECC_JAVA_JOBS": 1,
+                "ECC_STREAMSERVE": 10
+            },
+            "totalCount": 12,
+            "appName": "Weekly Tickets"
+        }]
+    }
+}]

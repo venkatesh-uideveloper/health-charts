@@ -1,0 +1,77 @@
+[{
+	"ARI": {
+		"Type": "Advanced Reading Inputs",
+		"InternalChartData": [{
+			"type": "File Count",
+			"total": "100",
+			"processed": "50",
+			 "filesReceived": "Total Files Received"
+		}, {
+			"type": "Register Readings",
+			"total": "8000",
+			"processed": "7500"
+		}, {
+			"type": "Interval Readings",
+			"total": "7000",
+			"processed": "6500"
+		}]
+	},
+	 "BI": {
+                "Type": "Billing Import",
+                "InternalChartData": [{
+                                "type": "Resi File Count",
+                                "total": "100",
+                                "processed": "84",
+                                "colorCode": "#5ec41a"
+                        }, {
+                                "type": "Resi Meter Count",
+                                "total": "8000",
+                                "processed": "7500",
+                                "colorCode": "#cdd92b"
+                        }, {
+                                "type": "CI File Count",
+                                "total": "100",
+                                "processed": "0",
+                                "colorCode": "#da4d2f",
+                                 "filesReceived": "Total Files Received"
+                        }, {
+                                "type": "CI Meter Count",
+                                "total": "8000",
+                                "processed": "7500",
+                                "colorCode": "#5ec41a"
+
+                        },
+
+                        {
+                                "type": "Total Readings",
+                                "total": "8000",
+                                "processed": "7500",
+                                 "colorCode": "#cdd92b"
+                        }
+                ]
+        },
+	"BE": {
+        "Type": "Billing Export",
+        "InternalChartData": [{
+            "cycleNo": "02",
+            "totalMeters": "179",
+            "totalForCurrentDate": "0",
+            "totalReadDate": "160830",
+            "totalEarlyReads": "189",
+            "earlyDate": "160828",
+            "premiseType": "Residential",
+            "total98": "0"
+        }, {
+            "cycleNo": "01",
+            "totalMeters": "199",
+            "totalForCurrentDate": "0",
+            "totalReadDate": "160830",
+            "totalEarlyReads": "189",
+            "earlyDate": "160828",
+            "premiseType": "CI",
+            "total98": "0"
+        }]
+    }
+
+
+}]

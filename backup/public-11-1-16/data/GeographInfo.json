@@ -1,0 +1,573 @@
+[{
+                "Application Alert": {
+                                "Type": "Application Alert",
+                                "InternalChartData": [{
+                                                "alertType": " JVM LowHeapFreeMemory",
+                                                "alertCount": {
+                                                                "SERVER1": 1,
+                                                                "SERVER2": 4,
+                                                                "SERVER3": 0,
+                                                                "SERVER4": 6
+
+                                                },
+                                                "color": "#5ec41a",
+                                                "hourlyGraph": {
+                                                                "Overall": {
+                                                                                "2.00PM": 2,
+                                                                                "3.00PM": 5,
+                                                                                "4.00PM": 4,
+                                                                                "5.00PM": 2,
+                                                                                "6.00PM": 3,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER1": {
+                                                                                "2.00PM": 3,
+                                                                                "3.00PM": 7,
+                                                                                "4.00PM": 1,
+                                                                                "5.00PM": 2,
+                                                                                "6.00PM": 6,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER2": {
+                                                                                "2.00PM": 6,
+                                                                                "3.00PM": 5,
+                                                                                "4.00PM": 7,
+                                                                                "5.00PM": 2,
+                                                                                "6.00PM": 9,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER3": {
+                                                                                "2.00PM": 3,
+                                                                                "3.00PM": 6,
+                                                                                "4.00PM": 1,
+                                                                                "5.00PM": 2,
+                                                                                "6.00PM": 6,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER4": {
+                                                                                "2.00PM": 1,
+                                                                                "3.00PM": 5,
+                                                                                "4.00PM": 2,
+                                                                                "5.00PM": 2,
+                                                                                "6.00PM": 3,
+                                                                                "7.00PM": 1
+                                                                }
+                                                },
+                                                "totalCount": 3,
+                                                "filesReceived": "Total Files Received"
+                                },
+                                {
+                                                "alertType": "JVM Hung Thread",
+                                                "alertCount": {
+                                                                "SERVER1": 1,
+                                                                "SERVER2": 3,
+                                                                "SERVER3": 0,
+                                                                "SERVER4": 4
+                                                },
+                                                "color": "#5ec41a",
+                                                "hourlyGraph": {
+                                                                "Overall": {
+                                                                                "2.00PM": 1,
+                                                                                "3.00PM": 5,
+                                                                                "4.00PM": 3,
+                                                                                "5.00PM": 2,
+                                                                                "6.00PM": 0,
+                                                                                "7.00PM": 4
+                                                                },
+                                                                "SERVER1": {
+                                                                                "2.00PM": 3,
+                                                                                "3.00PM": 5,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 2,
+                                                                                "6.00PM": 4,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER2": {
+                                                                                "2.00PM": 3,
+                                                                                "3.00PM": 5,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 2,
+                                                                                "6.00PM": 4,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER3": {
+                                                                                "2.00PM": 3,
+                                                                                "3.00PM": 5,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 2,
+                                                                                "6.00PM": 4,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER4": {
+                                                                                "2.00PM": 3,
+                                                                                "3.00PM": 5,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 2,
+                                                                                "6.00PM": 4,
+                                                                                "7.00PM": 1
+                                                                }
+                                                },
+                                                "totalCount": 4,
+                                                "filesReceived": "Total Files Received"
+                                },
+                                {
+                                                "alertType": "Channel Server Status",
+                                                "alertCount": {
+                                                                "SERVER1": 4,
+                                                                "SERVER2": 3,
+                                                                "SERVER3": 0,
+                                                                "SERVER4": 1
+                                                },
+                                                "color": "#5ec41a",
+                                                "hourlyGraph": {
+                                                                "Overall": {
+                                                                                "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 4,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER1": {
+                                                                                 "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 4,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER2": {
+                                                                                 "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 4,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER3": {
+                                                                                 "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 4,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER4": {
+                                                                                "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 4,
+                                                                                "7.00PM": 1
+                                                                }
+                                                },
+                                                "totalCount": 5,
+                                                "filesReceived": "Total Files Received"
+                                },
+                                {
+                                                "alertType": "Channel Server Broken",
+                                                "alertCount": {
+                                                                "SERVER1": 1,
+                                                                "SERVER2": 2,
+                                                                "SERVER3": 2,
+                                                                "SERVER4": 4
+                                                },
+                                                "color": "#5ec41a",
+                                                "hourlyGraph": {
+                                                                "Overall": {
+                                                                                "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 4,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER1": {
+                                                                                 "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 4,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER2": {
+                                                                                "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 4,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER3": {
+                                                                                 "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 4,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER4": {
+                                                                                 "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 4,
+                                                                                "7.00PM": 1
+                                                                }
+                                                },
+                                                "totalCount": 7,
+                                                "filesReceived": "Total Files Received"
+                                }]
+                },
+                "GIS": {
+                         "Type": "Geographic Information System",
+                                "InternalChartData": [{
+                                                "alertType": "General Status",
+                                                "alertCount": {
+                                                                "SERVER1": 1,
+                                                                "SERVER2": 3,
+                                                                "SERVER3": 0,
+                                                                "SERVER4": 4
+                                                },
+                                                "color": "#5ec41a",
+                                                "hourlyGraph": {
+                                                                "Overall": {
+                                                                                "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 3,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER1": {
+                                                                                "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 3,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER2": {
+                                                                                "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 3,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER3": {
+                                                                                "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 3,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER4": {
+                                                                                "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 3,
+                                                                                "7.00PM": 1
+                                                                }
+                                                },
+                                                "totalCount": 9
+                                },
+                                {
+                                                "alertType": "Geo Coding Services",
+                                                "alertCount": {
+                                                                "SERVER1": 1,
+                                                                "SERVER2": 3,
+                                                                "SERVER3": 0,
+                                                                "SERVER4": 4
+                                                },
+                                                "color": "#5ec41a",
+                                                "hourlyGraph": {
+                                                                "Overall": {
+                                                                                "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 3,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER1": {
+                                                                                "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 3,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER2": {
+                                                                                "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 3,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER3": {
+                                                                                "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 3,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER4": {
+                                                                                "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 3,
+                                                                                "7.00PM": 1
+                                                                }
+                                                },
+                                                "totalCount": 6
+                                },
+                                {
+                                                "alertType": "Routing Services",
+                                                "alertCount": {
+                                                                "SERVER1": 1,
+                                                                "SERVER2": 3,
+                                                                "SERVER3": 0,
+                                                                "SERVER4": 4
+                                                },
+                                                "color": "#5ec41a",
+                                                "hourlyGraph": {
+                                                                "Overall": {
+                                                                                "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 3,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER1": {
+                                                                                "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 3,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER2": {
+                                                                                "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 3,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER3": {
+                                                                                "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 3,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER4": {
+                                                                                "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 3,
+                                                                                "7.00PM": 1
+                                                                }
+                                                },
+                                                "totalCount": 2
+                                },
+                                {
+                                                "alertType": "Mapping Services",
+                                                "alertCount": {
+                                                               "SERVER1": 1,
+                                                                "SERVER2": 3,
+                                                                "SERVER3": 0,
+                                                                "SERVER4": 4
+                                                },
+                                                "color": "#5ec41a",
+                                                "hourlyGraph": {
+                                                                "Overall": {
+                                                                                "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 3,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER1": {
+                                                                                "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 3,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER2": {
+                                                                                "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 3,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER3": {
+                                                                                "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 3,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER4": {
+                                                                                "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 3,
+                                                                                "7.00PM": 1
+                                                                }
+                                                },
+                                                "totalCount": 3
+                                }]
+                },
+                "Other Aplication Alerts": {
+                                "Type": "Other Aplication Alerts",
+                                "InternalChartData": [{
+                                                "alertType": "DBAccessTime",
+                                                "alertCount": {
+                                                                "SERVER1": 1,
+                                                                "SERVER2": 3,
+                                                                "SERVER3": 0,
+                                                                "SERVER4": 4
+                                                },
+                                                "color": "#5ec41a",
+                                                "hourlyGraph": {
+                                                                "Overall": {
+                                                                                "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 4,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER1": {
+                                                                                 "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 3,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER2": {
+                                                                                 "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 3,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER3": {
+                                                                                "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 3,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER4": {
+                                                                                 "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 3,
+                                                                                "7.00PM": 1
+                                                                }
+                                                },
+                                                "totalCount": 5
+                                }, {
+                                                "alertType": "RequestTracker",
+                                                "alertCount": {
+                                                                "SERVER1": 1,
+                                                                "SERVER2": 3,
+                                                                "SERVER3": 0,
+                                                                "SERVER4": 4
+                                                },
+                                                "color": "#5ec41a",
+                                                "hourlyGraph": {
+                                                                "Overall": {
+                                                                                "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 0,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER4": {
+                                                                                "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 3,
+                                                                                "7.00PM": 1
+                                                                }
+                                                },
+                                                "totalCount": 1
+                                }, {
+                                                "alertType": "DBAdapterTimeout",
+                                                "alertCount": {
+                                                               "SERVER1": 1,
+                                                                "SERVER2": 3,
+                                                                "SERVER3": 0,
+                                                                "SERVER4": 4
+                                                },
+                                                "color": "#5ec41a",
+                                                "hourlyGraph": {
+                                                                "Overall": {
+                                                                                "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 4,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER1": {
+                                                                                 "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 3,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER2": {
+                                                                               "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 3,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER3": {
+                                                                                 "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 3,
+                                                                                "7.00PM": 1
+                                                                },
+                                                                "SERVER4": {
+                                                                                 "2.00PM": 0,
+                                                                                "3.00PM": 0,
+                                                                                "4.00PM": 0,
+                                                                                "5.00PM": 0,
+                                                                                "6.00PM": 3,
+                                                                                "7.00PM": 1
+                                                                }
+                                                },
+                                                "totalCount": 8
+                                }]
+                }
+}]

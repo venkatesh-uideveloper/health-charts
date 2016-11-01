@@ -1,0 +1,1671 @@
+/*@font-face {
+    font-family: "Helvetica65-Medium";
+    src: url("/css/fonts/HelveticaMed.ttf");
+        src: url("/css/fonts/Helvetica Bold.PFM");
+        src: url("/css/fonts/Helvetica Light.PFM");
+        src: url("/css/fonts/Helvetica Medium.PFM");
+        src: url("/css/fonts/Helvetica Roman.PFM");
+}*/
+
+@font-face {
+    font-family: Raleway-ExtraLight;
+    src: url("./fonts/Raleway-ExtraLight.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: Raleway-Regular;
+    src: url("./fonts/Raleway-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: Raleway-Thin;
+    src: url("./fonts/Raleway-Thin.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: Raleway-ExtraBoldItalic;
+    src: url("./fonts/Raleway-ExtraBoldItalic.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: HelveticaMed;
+    src: url("./fonts/HelveticaMed.ttf") format('truetype');
+}
+
+.clear-float {
+    clear: both;
+}
+
+.itron-chart {
+    /* margin-top: 100px;*/
+}
+
+.navbar-default .navbar-nav > li > span {
+    color: #113144;
+    padding-bottom: 11px;
+    padding-top: 9px;
+    padding-left: 15px;
+    font-family: Raleway-Regular;
+    font-size: 30px;
+    float: left;
+}
+
+.today-status .panel-body {
+    padding-top: 0;
+}
+
+.doughtnut1 {
+    height: 91% !important;
+}
+
+#geo-svg-circle {
+    text-align: center;
+}
+
+.cal-text {
+    color: red;
+}
+
+.progressCount {
+    padding-left: 0px !important;
+}
+
+.progress-wrapper.progress-line-chart {
+    margin: 0;
+}
+
+hr.custom-hr {
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.wekly.heading {
+    margin-bottom: 30px;
+}
+
+#desktop-details hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.mobile-header {
+    background-color: #0097dc;
+    color: #fff;
+    margin: 0 20px;
+    padding: 8px 15px;
+}
+
+#bar {
+    height: 185px !important;
+    display: block !important;
+    width: 593px !important;
+}
+
+.media {
+    margin-top: 42px;
+}
+
+.each-app .panel-body .time-split .each-time:first-child {
+    padding-left: 0;
+    width: 99%;
+    /*padding-right: 14px;
+*/
+}
+
+body .each-app .panel-body .days-split li a:last-child {
+    background-color: #0097dc;
+    color: #fff;
+}
+
+.app-heading {
+    color: #113144;
+    padding-bottom: 11px;
+    padding-top: 9px;
+    padding-left: 15px;
+    font-family: Raleway-Regular;
+    font-size: 14px;
+    float: left;
+    text-align: center;
+}
+
+span.processed-span {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.app-heading a:focus,
+.app-heading a:hover {
+    background-color: #0097dc!important;
+}
+
+.app-heading-light {
+    color: #777;
+}
+
+.app-heading .link {
+    color: #0097dc;
+}
+
+.billing-heading {
+    color: #113144;
+    padding-bottom: 11px;
+    padding-top: 9px;
+    padding-left: 15px;
+    font-family: Raleway-Regular;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.each-app {
+    padding: 0 30px;
+}
+
+.each-app .panel-heading {
+    padding: 0;
+    background-color: #123145;
+    position: relative;
+}
+
+.each-app .panel-heading .flag {
+    font-size: 52px;
+    background-color: #da4d2f;
+    color: #ffffff;
+    padding: 5px 10px;
+}
+
+.each-app .panel-heading .title {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.each-app .panel-heading .media-body {
+    padding: 10px;
+}
+
+.each-app .panel-heading .circle-ellipsis i {
+    font-size: 8px;
+    margin-right: 2px;
+    color: #0097dc;
+}
+
+.each-app .stats {
+    color: #da4d2f;
+}
+
+.each-app .stats .number {
+    font-size: 18px;
+}
+
+.each-app .app-indicator {
+    width: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0px;
+}
+
+.each-app .panel-body .body-content {
+    overflow: hidden;
+}
+
+.each-app .panel-body .days-split {
+    margin-left: -3px;
+}
+
+.each-app .panel-body .days-split li a {
+    padding: 10px 6px;
+    display: inline-block;
+    width: 42px;
+}
+
+.each-app .panel-body .days-split li a:hover {
+    border-bottom: 1px solid #428bca;
+}
+
+.each-app .panel-body .nav-tabs {
+    border-bottom: 2px solid #0097dc;
+}
+
+.each-app .panel-body .days-split .active a {
+    background-color: #0097dc;
+    color: #fff;
+}
+
+.each-app .panel-body .time-split {
+    border: none!important;
+}
+
+.each-app .panel-body .time-split .each-time i {
+    font-size: 23px;
+    margin-left: 0px;
+    width: 43px;
+    text-align: left;
+    margin-right: 3px;
+}
+
+.each-app .panel-body .time-split .each-time {
+    padding: 6px;
+    padding-left: 24px;
+    padding-right: 0px;
+}
+
+.nav-tabs > li > a:hover {
+    border-color: #fff;
+    background-color: #fff;
+    color: #428bca;
+}
+
+.app-nav {
+    padding: 5px 30px 0;
+    background-color: #123145;
+}
+
+.app-nav li {
+    padding: ;
+}
+
+.app-nav li a i {
+    border: 3px solid #444;
+    border-radius: 50%;
+    color: #da4d2f;
+    background-color: #da4d2f;
+    font-size: 12px;
+}
+
+.app-nav li a {
+    color: #FFFFFF;
+    padding: 10px 25px;
+    font: 700 15px Raleway-Regular;
+    cursor: pointer !important;
+}
+
+.today-status {
+    margin: 10px 2px;
+}
+
+.today-status .media-body {
+    margin-top: 20px;
+}
+
+.today-status .calendar .control {
+    font-size: 24px;
+    padding: 40px 10px;
+}
+
+.today-status .calendar .custom-hr {
+    margin: 5px;
+}
+
+.today-status .calendar .month {
+    margin: 10px 0;
+}
+
+.today-status .calendar .each-date {
+    width: 12.5%;
+    display: inline-block;
+    padding: 5px 0;
+}
+
+.today-status .calendar .each-date .selected {
+    padding: 5px 8px;
+    background-color: #da4d2f;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.today-status .calendar .each-date .disabled {
+    color: #ddd;
+}
+
+.details-container {
+    padding: 10px 30px;
+}
+
+.details-panel {
+    margin: 20px 30px;
+}
+
+.details-panel .month-text {
+    font: 26px Raleway;
+    margin-top: 15px;
+}
+
+.details-panel .month-text a {
+    text-decoration: none;
+}
+
+.details-panel .days-split a {
+    font-size: 24px;
+    color: #666;
+}
+
+.remedy-tickets {
+    margin: 20px;
+}
+
+.panel-body.today-panel-body {
+    display: flex;
+}
+
+.today-status .progress-wrapper {
+    margin: 0 !important;
+}
+
+.fmos_calendar {
+    display: flex;
+}
+
+.remedy-tickets table {
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.today-status .media {
+    margin-top: 20px !important;
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+.arrow-calender {
+    padding: 40px 10px;
+    cursor: pointer;
+}
+
+.arrow-calender i {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.text-center.month {
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.remedy-tickets .title,
+.today-status .title {
+    font: 700 15px Raleway-Regular;
+    color: #113144;
+    margin: 10px 15px;
+}
+
+.remedy-tickets .month-selector {
+    font: 700 14px Raleway-Regular;
+    color: #0097dc;
+    margin: 20px 15px;
+}
+
+.remedy-tickets table td {
+    padding: 8px;
+    width: 50%;
+    border-bottom: 1px solid #ccc;
+}
+
+.remedy-tickets table .value {
+    background-color: #ddd;
+    color: #123145;
+}
+
+.nav-tabs {
+    font-family: Raleway Bold;
+}
+
+.app-container {
+    margin-top: 20px;
+}
+
+.v-height {
+    min-height: 511px;
+}
+
+.top-0 {
+    margin-top: 0;
+}
+
+#doughnut1 canvas {
+    margin-left: -62px;
+    width: 220px !important;
+    height: 100px !important;
+    float: left;
+}
+
+.chart-container {
+    text-align: center;
+    padding: 0px;
+}
+
+.details-heading {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.progress-wrapper {
+    position: relative;
+    margin: 20px auto;
+    font-size: 40px;
+    width: 100%;
+}
+
+.progress-text {
+    position: absolute;
+    color: #bbb;
+    line-height: 1;
+    top: 48%;
+    bottom: auto;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    font-size: 15px;
+    width: 100px;
+}
+
+.progress-text-fmos {
+    position: absolute;
+    color: #fff;
+    line-height: 0.5;
+    top: 51%;
+    bottom: auto;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    font-size: 42px;
+    width: 100px;
+}
+
+.progress-text-fmos.progress-text {
+    position: absolute;
+    color: #bbb;
+    line-height: 0.5;
+    top: 45%;
+    bottom: auto;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    font-size: 24px;
+    text-align: center;
+    width: auto;
+}
+
+.todaystatus-text {
+    position: absolute;
+    color: #bbb;
+    line-height: 0.5;
+    top: 56%;
+    bottom: auto;
+    left: 28%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    font-size: 26px;
+    width: 92px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.progress-text-toal {
+    font-size: 14px;
+    margin: 0;
+}
+
+.todaystatus-text-toal {
+    font-size: 10px;
+    margin: 0;
+}
+
+.progress-text-recieved {
+    font-size: 18px;
+    margin: 0;
+}
+
+.todaystatus-text-recieved {
+    font-size: 12px;
+    margin: 0;
+}
+
+.fields {
+    float: left;
+    padding: 0px;
+    /*background-color: #ffffff;*/
+    margin-bottom: 25px;
+}
+
+.premisetype {
+    font-size: 21px;
+}
+
+hr.style3 {
+    border-top: 1px dashed #8c8b8b;
+}
+
+.fields div {
+    margin-bottom: 5px;
+    padding: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: normal;
+}
+
+.fields .count {
+    background: #dcdee1;
+    text-align: center;
+    height: 23px;
+    min-width: 45px;
+    color: #666666;
+    padding: 3px 6px;
+    float: right;
+    border-radius: 12px;
+    margin-left: 5px;
+}
+
+.heading {
+    font-size: 18px;
+    line-height: 2em;
+    text-align: center;
+    font-weight: 500;
+}
+
+.donut-inner {
+    margin-top: -100px;
+    margin-bottom: 100px;
+}
+
+.donut-inner h5 {
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.donut-inner span {
+    font-size: 12px;
+}
+
+.navbar-default {
+    background-color: #0097dc;
+    border: none;
+    border-radius: 0;
+    padding-top: 20px;
+}
+
+.navbar {
+    min-height: 40px;
+}
+
+.navbar-nav > li > a {
+    margin-top: -15px;
+    float: left;
+}
+
+.navbar-default .navbar-nav > li > span {
+    color: white;
+    padding-bottom: 11px;
+    padding-top: 9px;
+    padding-left: 15px;
+    font-family: Raleway-ExtraLight;
+    float: left;
+}
+
+
+/* rectangle and body css goes here*/
+
+.rectangle-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: #000000;
+}
+
+.list_box,
+.chart-list {
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.carousal {
+    position: relative !important;
+    background-color: #ffffff !important;
+    margin: 0 AUTO;
+    border-radius: 5px !important;
+    width: 94%;
+}
+
+.carousel-list_box {
+    /*background-color: #ffffff;*/
+    /*    overflow: hidden;*/
+    border-radius: 5px;
+    padding: 5px 0px;
+}
+
+.chart-list {
+    background-color: #123145;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+    /* margin-top: 26px;*/
+}
+
+.chart-list.active {
+    background-color: #fff;
+    color: #333;
+    margin-right: -33px;
+    border-radius: 5px;
+}
+
+.chart-list.active .progressText,
+.chart-list.active .progressCount,
+.chart-list.active .cat-det {
+    color: #333;
+    padding-right: 9px;
+}
+
+.list_box1 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid black;
+    background-color: #ffffff;
+}
+
+.list_box2 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.list_box1:before {
+    content: "";
+    display: block;
+    padding-top: 75%;
+}
+
+.list_box2:before {
+    content: "";
+    display: block;
+    padding-top: 25%;
+}
+
+.box_content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.box {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.row.progressHolder {
+    margin-left: 0;
+}
+
+.cat-det {
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.progress-bar {
+    min-width: 0px !important;
+}
+
+.gadget .carousel .carousel-control,
+.gadget .carousel:hover .carousel-control {
+    display: none;
+}
+
+.gadget .carousel {
+    background: #fff;
+    padding: 10px;
+}
+
+.gadget .carousel-indicators li {
+    height: 12px;
+    width: 12px;
+    border: 1px solid #474747;
+    margin: 5px;
+}
+
+.gadget .carousel-indicators li.active {
+    background: #0097dc
+}
+
+.mobileHeader {
+    margin: 15px 0 5px 8px;
+}
+
+#dropdownMenu1 {
+    margin: 0 7px;
+}
+
+@media(min-width: 1023px) {
+    .fields div {
+        width: 80%;
+        margin: auto;
+    }
+    .progressText {
+        font-size: 11px !important;
+    }
+}
+
+
+/*@media(min-width: 1025px) {
+    .each-app .panel-body .days-split {
+        margin-left: 18px;
+    }
+    #circles {
+        margin-left: 30px;
+    }
+}
+*/
+
+
+/*@media(width: 1024px) {
+    .each-app .panel-body .time-split .each-time {
+        padding-left: 23px;
+    }
+}*/
+
+@media(max-width: 1024px) {
+    /*.each-app .panel-body .days-split li a {
+    padding: 10px 4px;
+}
+
+.each-app .panel-body .time-split .each-time i {
+    margin-left: -14px;
+}
+*/
+    #bar {
+        width: 441px !important;
+    }
+}
+
+.progressText {
+    font-size: 15px;
+    color: #ffffff;
+    padding-left: 1px;
+    padding-right: 0px;
+}
+
+@media(max-width: 540px) {
+    .progressText {
+        font-size: 9px !important;
+    }
+    .progressCount {
+        font-size: 13px !important;
+        color: #ffffff;
+    }
+    .text {
+        font-size: 9px !important;
+    }
+    .each-app .stats .number {
+        font-size: 12px;
+    }
+    .remedy-tickets .title,
+    .today-status .title {
+        font: 10px Raleway-Regular !important;
+        color: #113144;
+        margin: 20px 15px;
+    }
+    .remedy-tickets .month-selector {
+        font: 10px Raleway-Regular !important;
+        color: #0097dc;
+        margin: 20px 15px;
+    }
+    .nav > li > a.backArrow {
+        display: block;
+        float: left;
+        margin-top: -15px;
+    }
+}
+
+@media(min-width: 1036px) {
+    .progressText {
+        font-size: 13px !important;
+    }
+    .remedy-tickets {
+        margin: 3px;
+        margin-top: 12px;
+    }
+    .each-app .panel-body .time-split .each-time i {
+        width: 35px;
+    }
+}
+
+W .progressCount {
+    font-size: 14px;
+    color: #ffffff;
+    padding-right: 11px;
+}
+
+.box_span {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.listHeader {
+    /*font-family: "Raleway-Regular";*/
+    padding-bottom: 15px;
+    font-size: 16px;
+    margin-left: -20px;
+    cursor: pointer;
+    font-weight: bold;
+    /* border-bottom: solid 2px black;*/
+}
+
+.today-status i.fa-pencil {
+    background: #ADD8E6;
+}
+
+
+/* charts css goes here */
+
+#myChart {
+    text-align: 'center';
+}
+
+.file-chart {
+    text-align: center;
+}
+
+
+/*=======================================================================
+  Carousel
+  =======================================================================*/
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    max-width: inherit;
+    width: 100%;
+}
+
+.carousel-inner > .item {
+    min-height: 206px;
+}
+
+.carousel-indicators {
+    bottom: -15px !important;
+}
+
+.carousel-indicators li.sqare,
+.carousel-indicators.sqare .active {
+    width: 15px;
+    height: 15px;
+}
+
+. .carousel-indicators li.grey,
+.carousel-indicators.grey .active {
+    width: 12px;
+    height: 12px;
+}
+
+.carousel-indicators.grey li {
+    border: 1px solid #474747;
+}
+
+.carousel-indicators.grey .active {
+    background-color: #0097dc;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none;
+    opacity: 1;
+    width: 40px;
+    z-index: 11;
+}
+
+.carousal-dots {
+    width: 12px !important;
+    height: 12px !important;
+    margin: 0px 4px !important;
+}
+
+.carousel-control.left {
+    left: -15px;
+}
+
+.carousel-control.right {
+    right: -15px;
+}
+
+.carousel-control .icon-prev,
+.carousel-control .icon-next,
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right {
+    text-indent: -999em;
+    background: #89857e;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.carousel .carousel-control {
+    display: none;
+}
+
+.carousel:hover .carousel-control {
+    display: block;
+}
+
+.carousel-caption {
+    text-align: left;
+    text-shadow: none;
+    width: 37%;
+    padding: 0;
+    margin: auto 0;
+    left: 62%;
+    bottom: 25%;
+}
+
+.carousel-caption p {
+    font-size: 13px;
+    line-height: 21px;
+    font-family: "arvo", serif;
+}
+
+.carousel-caption a {
+    color: #fff;
+}
+
+.carousel-caption a:hover {
+    text-decoration: none;
+}
+
+.chart .chart-doughnut {
+    padding-right: 30px !important;
+}
+
+.back {
+    width: 30px;
+    height: auto;
+    margin-top: 5px;
+}
+
+#header-text {
+    color: #ffffff;
+}
+
+.progress {
+    height: 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.progress-bar-0 {
+    background-color: #5ec41a;
+}
+
+.progress-bar-1 {
+    background-color: #cdd92b;
+}
+
+.progress-bar-2 {
+    background-color: #da4d2f;
+}
+
+.fmos-progress {
+    width: 100%;
+    height: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+}
+
+
+/* media query for mobile */
+
+@media (min-width: 768px) {
+    /*.back {
+        display: none;
+    }*/
+    .ipadheader {
+        overflow: hidden;
+    }
+    .progressCount {
+        font-size: 13px !important;
+        color: #ffffff;
+    }
+    .back {
+        width: auto;
+    }
+    .app-heading {
+        padding-top: 10px !important;
+    }
+    .chart-mob {
+        /* height: 260px !important;*/
+    }
+    .rem-chart {
+        height: 260px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-nav > li > a {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-nav > li > a {
+        display: block;
+    }
+    .each-app .panel-body .days-split li a {
+        padding: 10px 5px;
+        width: 30px;
+    }
+    .each-app .panel-body .time-split .each-time i {
+        margin-left: -15px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1023px) {
+    body .each-app .panel-body .time-split .each-time i {
+        width: 27px;
+    }
+    .chart-graph {
+        display: block;
+        width: 344px!important;
+        height: 272px!important;
+        margin-top: 19px!important;
+        padding-right: 53px;
+    }
+    .chart-mob {
+        margin-left: 30px;
+        padding-right: 60px;
+        padding-bottom: 29px;
+    }
+    .rem-chart {
+        margin-left: 30px;
+        padding-right: 60px;
+        padding-bottom: 29px;
+    }
+    .billing-heading {
+        /*  margin-left: 123px;*/
+        /*  float: left;
+    margin-left: 146px;*/
+    }
+    /*  .carousel-list_box {
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px 0px;
+}*/
+    @media (max-width: 769px) {
+        .today-status .media {
+            margin-top: 6px !important;
+            display: flex;
+            margin: auto;
+            width: 60%;
+        }
+        .fields {
+            line-height: 215px;
+            /*margin-top: 5%;*/
+        }
+        .col-fluid {
+            float: none;
+        }
+        .remedy-tickets .title,
+        .today-status .title {
+            font: 12px Raleway-Regular;
+            color: #113144;
+            margin: 20px 15px;
+        }
+        /*.chart-mob{
+        height:260px !important;
+    }*/
+        .fields div {
+            font-size: 17px;
+        }
+        .billing-heading {
+            /*margin-left: 208px;*/
+            /*  float: left;
+    margin-left: 146px;*/
+        }
+        .list_box {
+            display: none !important;
+        }
+        .list_box.visible-sm {
+            display: block !important;
+        }
+        .back {
+            width: 30px;
+            height: auto;
+            margin-top: 8px !important;
+        }
+    }
+    .fields .count {
+        height: auto;
+    }
+    .app-heading {
+        background-color: #0097dc;
+        color: #ffffff;
+        padding-bottom: 10px;
+        padding-top: 30px;
+        padding-left: 15px;
+        padding-right: 23px;
+        font-family: Helvetica 45;
+        font-size: 16pt;
+        float: left;
+        width: 100%;
+    }
+    .app-heading1 {
+        background-color: #0097dc;
+        color: #ffffff;
+        padding-bottom: 11px;
+        padding-top: 30px;
+        padding-left: 15px !important;
+        font-family: Helvetica 45;
+        font-size: 17pt;
+        float: left;
+        width: 100%;
+    }
+    .Residential {
+        font-size: 18px;
+        line-height: 2em;
+        text-align: center !important;
+    }
+    .ci {
+        font-size: 18px;
+        line-height: 2em;
+        text-align: center !important;
+    }
+    .progress-wrapper {
+        margin: 0px;
+        font-size: 30px;
+    }
+    .navbar-nav {
+        float: none;
+        margin: 7.5px -15px;
+    }
+}
+
+@media only screen and (max-width:916px) {
+    .today-status .media {
+        margin-top: 6px !important;
+        display: flex;
+        width: 70%;
+        margin: auto;
+    }
+}
+
+@media only screen (min-width: 768px) and (max-width: 846px) {
+    .today-status .media {
+        margin-top: 6px !important;
+        display: flex;
+        margin: auto;
+        width: 50%;
+    }
+    @media (max-width: 468px) {
+        .today-status .media {
+            margin-top: 6px !important;
+            display: flex;
+            margin: auto;
+            width: 100%;
+        }
+        .fields {
+            margin-top: 5%;
+            padding-left: 5px;
+        }
+        .chart-mob {
+            height: 206px !important;
+        }
+        .rem-chart {
+            height: 150px !important;
+        }
+        .first_carousel {
+            height: 230px;
+        }
+        #pie {
+            display: block;
+            width: 185px !important;
+            height: 110px !important;
+        }
+        .fields div {
+            font-size: 15px;
+        }
+        .back {
+            width: 30px;
+            height: auto;
+            margin-top: 5px !important;
+        }
+        .billing-heading {
+            margin-left: 135px !important;
+        }
+        .app-heading {
+            background-color: #0097dc;
+            color: #ffffff;
+            padding-bottom: 11px !important;
+            padding-top: 11px;
+            padding-left: 3px;
+            padding-right: 3px;
+            font-family: Helvetica 45;
+            font-size: 16pt;
+            float: left;
+            width: 100%;
+        }
+        .billing-heading {
+            margin-left: 12px !important;
+        }
+        .billing-heading {
+            font-size: 27px;
+        }
+    }
+    @media (min-width:1024px) {
+        .chart-list.active {
+            margin-right: -33px !important;
+        }
+        .chart-graph {
+            display: block;
+            width: 280px;
+            height: 275px;
+            margin-top: 17px;
+        }
+        .progressCount {
+            font-size: 13px;
+            color: #ffffff;
+            padding-right: 2px !important;
+            padding-left: 2px;
+        }
+        .progress {
+            font-size: 13px;
+            color: #ffffff;
+        }
+        .round-progress {
+            top: 0px;
+            left: 0px;
+            position: static;
+            width: 183px !important;
+            height: 124px !important;
+            overflow: hidden;
+        }
+    }
+    .applicationHeader .app-heading a {
+        padding: 0px;
+    }
+    .wekly {
+        font-size: 18px;
+        line-height: 2em;
+        text-align: center;
+    }
+}
+
+
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+    .billing-heading {
+        margin-left: 120px !important;
+    }
+}
+
+/*    @media only screen and (min-device-width : 767px) and (max-device-width : 1023px){
+    .carousel-list_box {
+    background-color: #ffffff !important;
+   
+}*/
+.carousal {
+    position: relative !important;
+    background-color: none !important;
+    /*margin: 0 10px !important;*/
+    
+    border-radius: 5px !important;
+}
+
+}
+@media (max-width: 767px) and (orientation:portrait) {
+    .carousel-inner {
+        min-height: 260px;
+    }
+    .chart-list {
+        margin-top: 26px !important;
+    }
+    .progressCount {
+        font-size: 13px !important;
+        color: #ffffff;
+    }
+}
+@media (max-width: 767px) and (orientation:portrait) {
+    .remedy-tickets table td {
+        padding: 0px !important;
+        width: 50%;
+        border-bottom: 1px solid #ccc;
+    }
+    .progressCount {
+        font-size: 13px !important;
+        color: #ffffff;
+    }
+}
+@media (max-width: 767px) and (orientation:landscape) {
+    .carousel-inner {
+        /* min-height: 360px;*/
+    }
+    .chart-list {
+        margin-top: 20px !important;
+    }
+    #remedy-carousel-1 {
+        height: 270px;
+    }
+    .progressCount {
+        font-size: 13px !important;
+        color: #ffffff;
+    }
+    #pie_landscape {
+        height: 150px !important;
+    }
+    .remedy-tickets {
+        margin: 0px !important;
+    }
+    .remedy-tickets table td {
+        padding: 4px !important;
+        width: 50%;
+        border-bottom: 1px solid #ccc;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1028px)(orientation:landscape) {
+    .today-status .media-body {
+        margin-top: -117px;
+    }
+}
+@media (min-width: 768px) and (orientation:portrait) {
+    .carousel-inner {
+        /* height: 357px;*/
+        
+        margin-top: 20px !important;
+    }
+    .remedy-tickets table td {
+        padding: 0px;
+        width: 50%;
+        border-bottom: 1px solid #ccc;
+    }
+    .remedy-tickets {
+        margin: 0px !important;
+    }
+    .chart-mob {
+        height: 280px !important;
+    }
+    .rem-chart {
+        height: 232px !important;
+    }
+    .carousel-list_box {
+        margin-bottom: 0;
+        margin-top: 20px !important;
+    }
+    .chart-list {
+        margin-top: 20px !important;
+    }
+    #doughnut1 .round-progress {
+        top: 0px;
+        left: 0px;
+        position: absolute;
+        width: 100% !important;
+        height: 91% !important;
+        flow: hidden;
+    }
+    .progress-wrapper {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .progress-text {
+        line-height: 0.7;
+        font-size: 25px;
+    }
+}
+
+/* .chart-list.active {
+    margin-top: 9px;
+}*/
+@media (max-width: 600px) and (orientation:portrait) {
+    /*     .carousel-inner{
+        min-height: 360px;
+    }*/
+    .chart-list {
+        margin-top: 16px !important;
+    }
+    #doughnut1 .round-progress {
+        top: 0px;
+        left: 0px;
+        position: absolute;
+        width: 100% !important;
+        height: 91% !important;
+        flow: hidden;
+    }
+    .remedy-tickets {
+        margin: 0px !important;
+    }
+}
+#doughnut1 .round-progress {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    width: 100% !important;
+    height: 91% !important;
+    flow: hidden;
+}
+@media (max-width: 400px) and (orientation:portrait) {
+    .app-heading {
+        font-family: Raleway-Regular;
+        font-size: 17px !important;
+        padding-top: 0;
+    }
+    .remedy-tickets {
+        margin: 0px !important;
+    }
+    .remedy-tickets table td {
+        padding: 0px !important;
+        width: 50%;
+        border-bottom: 1px solid #ccc;
+    }
+    .today-status .media {
+        width: 96%;
+    }
+}
+.remedy-tickets .panel-body {
+    position:relative;
+}
+#remedy-carousel-1 ol {
+    bottom:23px !important;
+}
+.chartjs-hidden-iframe {
+    display: none !important;
+}
+
+/*tablet*/
+@media (min-width: 991px) and (max-width: 1040px) {
+    body .each-app .panel-body .time-split .each-time i {
+        width: 27px;
+    }
+    body .each-app .panel-body .days-split li a {
+        width: 11%;
+    }
+    .progress-text-fmos {
+        left: 56.5%;
+    }
+    .progress-wrapper {
+        width: 80%;
+    }
+}
+
+/*desktop*/
+@media (min-width: 1041px) and (max-width: 1920px) {
+    body .each-app .panel-body .time-split .each-time i {
+        width: 11%;
+    }
+    body .each-app .panel-body .days-split li a {
+        width: 11%;
+    }
+    .progress-text-fmos {
+        top: 46%;
+        font-size: 30px;
+    }
+    .progress-wrapper {
+        width: 80%;
+    }
+    .progress-text {
+        line-height: 0.7;
+        font-size: 25px;
+    }
+}
+
+/*.nav-tabs > li.active > a{
+    background-color:#9f9d9d !important;
+}*/
+
+/*Remedy Ticket Styles*/
+hr {
+    float: left;
+    width: 100%;
+    margin: 10px 0;
+}
+.blueTxt {
+    color: #0097dc;
+}
+.greyTxt {
+    color: #C0C0C0;
+}
+.totalColor {
+    color:#123146;
+}
+.remedyContainer {
+    width: 95%;
+    margin: 0 auto;
+    color: #7d7474;
+}
+.remedyPartition {
+    width: 100%;
+    margin: 10px 0;
+    float: left;
+}
+.remedyPartStyles {
+    background-color: #fff;
+    border-radius:5px;
+}
+.remedySubHead {
+    margin: 10px 0;
+    font-weight: bold;
+}
+.marginLeft {
+    margin-left: 10px;
+}
+.YTDAppContainer {
+    overflow: hidden;
+}
+.YTDAppBarGraph {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    position: relative;
+}
+.YTDAppBarGraph li {
+    width: 100%;
+    margin-right:40px;
+}
+.ticketCount {
+    background: #dcdee1;
+    text-align: center;
+    color: #666666;
+    padding: 3px 6px;
+    border-radius: 12px;
+    margin: 2px auto;
+    width: 54px;
+}
+.ytdCountContainer {
+    height: 150px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 1px;
+}
+.ytdCountContainer::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 4px rgba(0,
+    0,
+    0,
+    0);
+    background-color: #fff;
+    border-radius: 10px;
+}
+.ytdCountContainer::-webkit-scrollbar {
+    width: 4px;
+    background-color: #fff;
+}
+.ytdCountContainer::-webkit-scrollbar-thumb {
+    background-color: #A7A9AC;
+    border-radius: 10px;
+}
+.totalCount {
+    width: 54px;
+    margin: 0 auto;
+    text-align: center;
+    padding-right: 9px;
+}
+
+/*mobile Carousel start*/
+.xs-carousel {
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+.mob-xs-slide .xs-carousel {  padding-bottom: 20px; }
+.mob-xs-slide .slick-dots { bottom: 0 }
+.xs-carousel .image .heading { margin-bottom: 10px;  }
+.slick-dots li a {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 0 4px;
+    border: 1px solid #0097dc;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0);
+    border-radius: 10px;
+    color: transparent;
+}
+.slick-dots li.slick-active a{
+    color: transparent;
+    background-color: #0097dc;
+}
+.xs-carousel .col-xs-7, .xs-carousel .col-xs-5 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.fmos-top-space .heading { margin-top: 15px; }
+@media (max-width: 1024px){
+    .mob-xs-slide .xs-carousel .fields {  float: none; margin: 0 auto; }
+
+}
+
+@media (max-width: 767px){
+    .xs-carousel { margin-bottom: 15px; }
+    
+    .chart-mob { height: 255px !important; }
+}
+@media (max-width: 420px){
+    .xs-carousel { margin-bottom: 15px; }
+    
+    .chart-mob { height: auto !important; }
+}
+/*mobile Carousel end*/
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}

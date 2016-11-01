@@ -1,0 +1,29 @@
+[{
+	"doughnut" :[{
+		"label" : "Sev1",
+		"color" : "#fcab54",
+		"value" : 4
+	},{
+		"label" : "Sev2",
+		"color" : "#14b4b8",
+		"value" : 2
+	},{
+		"label" : "Sev3",
+		"color" : "#915eca",
+		"value" : 6
+	},{
+		"label" : "Sev4",
+		"color" : "#8c8867",
+		"value" : 2
+	},{
+		"label" : "Sev5",
+		"color" : "#4d5360",
+		"value" : 2
+	}]
+	
+},{
+	"barChart" : {
+		"chart-labels": ["", "13-Tue", "14-Wed", "15-Thu", "16-Fri", "17-Sat", "18-Sun", "19-Mon"]
+
+	}
+}]

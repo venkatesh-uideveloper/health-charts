@@ -1,0 +1,131 @@
+/*Header Css*/
+
+@font-face {
+    font-family: Raleway-Regular;
+    src: url("./fonts/Raleway-Regular.ttf") format('truetype');
+}
+
+body {
+    background-color: #f0f2f4;
+    padding-top: 60px;
+}
+
+#navigation {
+    background-color: #fff;
+}
+
+.logo img {
+    margin-top: 8px;
+    float: left;
+}
+
+.headernav ul {
+    float: right;
+    margin-top: 5px;
+}
+
+.headernav ul li {
+    padding: 0 5px;
+}
+
+.toggle-left {
+    float: left;
+}
+
+.head-mobile {
+    font-size: 15px;
+    font-family: Raleway-Regular;
+}
+
+.headernav ul li a {
+    margin: 0px;
+    padding: 10px;
+    text-decoration: none;
+    color: #707070;
+    line-height: normal;
+    font-family: Raleway-Regular;
+    border-radius: 100px;
+}
+
+.headernav ul li a:hover {
+    margin: 0px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #066694;
+    color: #fff;
+    line-height: normal;
+}
+
+@media screen and (max-width: 540px) {
+    .headernav ul {
+        float: left;
+    }
+    .navigationbutton {
+        background-color: #ffffff;
+    }
+    .navigationbutton span {
+        background-color: black;
+    }
+}
+
+.foo-row {
+    padding: 20px 2%;
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        padding-top: 40px;
+    }
+    .navigationbutton span {
+        background-color: black;
+    }
+    .logo img {
+        margin: 0px;
+    }
+    .logo {
+        margin-top: 10pt;
+    }
+    .user {
+        margin-top: 10pt;
+    }
+}
+
+.user img {
+    margin-top: 5px;
+}
+
+.user-info {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.user-welcome {
+    font-size: 16px;
+    font-family: "Helvetica Neue";
+}
+
+.user-name {
+    font-size: 16px;
+    color: #0096db;
+}
+
+.user-log-info {
+    font-size: 12px;
+    font-family: "Helvetica Neue";
+}
+
+.user-logout {
+    margin-top: 10px;
+    margin-left: 10px;
+    border-left: 1px solid #f0f2f4;
+}
+
+.user-logout-text {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #0096db;
+}
+
+.fa-3 {
+    font-size: 50px !important;
+}

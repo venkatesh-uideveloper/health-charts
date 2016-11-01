@@ -1,0 +1,11 @@
+{
+    "labels": ["ECC", ["CIS", "MAINTENANCE"], "FMOS", ["CIS", "BATCH"],
+        ["CIS BATCH", "JOB FAILURE"], "IEE", "CALLS"
+    ],
+    "datasets": [{
+        "label": "Total Count",
+        "backgroundColor": "#CCC",
+        "borderColor": "#CCC",
+        "data": [1000, 800, 800, 700, 600, 400, 300]
+    }]
+}
